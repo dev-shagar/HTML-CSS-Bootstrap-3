@@ -1,0 +1,119 @@
+/************ GLOBAL AREA START HEHE ************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+/************ GLOBAL AREA END HEHE   ************/
+/************ NAVBAR AREA START HEHE ************/
+.navbar{
+    background:#000000;
+}
+.nav-item{
+    padding-left:20px;
+}
+.nav-item:first-child{
+    padding-right:0;
+}
+/************ NAVBAR AREA END HEHE ************/
+/********** CAROUSEL AREA START HEHE **********/
+.carousel-item{
+    height:450px;
+}
+.carousel-img-1{
+    background:url(img/image1.jpeg);
+}
+.carousel-img-2{
+    background:url(img/image2.jpeg);
+}
+.carousel-img-3{
+    background:url(img/image3.jpeg)
+}
+
+/************ CAROUSEL AREA END HEHE ************/
+/********** HOME-ICON AREA START HEHE ***********/
+#homeicon{
+    padding:4% 0;
+}
+/************ HOME-ICON AREA END HEHE ************/
+/********** GET STARTED AREA START HEHE **********/
+#get-started{
+    padding:4% 0;
+    background:url(img/bg1.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+}
+.dark-overlay{
+    background:rgba(0,0,0,0.6);
+    height:300px;
+    width:100vw;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+/********* GET STARTED AREA END HEHE **********/
+/************ INFO AREA START HEHE ************/
+#info{
+    padding:4% 0;
+}
+/************ INFO AREA  END HEHE ************/
+/********** VIDEO AREA  START HEHE ***********/
+#video{
+    padding:4% 0;
+    background:url(img/people.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+}
+.dark-overlay{
+    background:rgba(0,0,0,0.7);
+    height:300px;
+    width:100vw;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+#video .fa{
+    color:red;
+}
+.home-video{
+    margin-top:100px;
+}
+/************ VIDEO AREA  END HEHE ************/
+/********** PHOTO-GALLERY AREA  START HEHE *********/
+#photo-gallery{
+    padding:4% 0;
+    background:#eee;
+}
+#photo-gallery img{
+    min-height:250px;
+}
+/************ PHOTO-GALLERY AREA  END HEHE ************/
+/************ NEWS LETTER AREA  START HEHE ************/
+#newsletter{
+    padding:4% 0;
+    background:#201F20;
+}
+/************ NEWS LETTER AREA  END HEHE ************/
+/************ COPYRIGHT AREA  START HEHE ************/
+#copyright{
+    background:#000000;
+    padding:1% 0;
+}
+#copyright p{
+    font-size:20px;
+    margin:0;
+}
+/************ COPYRIGHT AREA  END HEHE ************/
+
+
+
+
